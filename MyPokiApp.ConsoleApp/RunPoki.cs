@@ -73,6 +73,8 @@ class RunPoki
                 
             Console.WriteLine("\nYour "+pokiName +"'s Stronger against : \n" + strongAgainst);
             Console.WriteLine("\nYour "+pokiName +"'s Seaker against : \n" + weakAgainst);
+            Console.WriteLine("\n Please press Enter to exit");
+            Console.ReadLine();
         }
         catch (System.Exception)
         {
