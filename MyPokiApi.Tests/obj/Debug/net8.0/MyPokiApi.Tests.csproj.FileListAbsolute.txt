@@ -108,3 +108,4 @@ C:\Stuller\MyPokiApi.Tests\obj\Debug\net8.0\refint\MyPokiApi.Tests.dll
 C:\Stuller\MyPokiApi.Tests\obj\Debug\net8.0\MyPokiApi.Tests.pdb
 C:\Stuller\MyPokiApi.Tests\obj\Debug\net8.0\MyPokiApi.Tests.genruntimeconfig.cache
 C:\Stuller\MyPokiApi.Tests\obj\Debug\net8.0\ref\MyPokiApi.Tests.dll
+C:\Stuller\MyPokiApi.Tests\obj\Debug\net8.0\MyPokiApi.Tests.sourcelink.json

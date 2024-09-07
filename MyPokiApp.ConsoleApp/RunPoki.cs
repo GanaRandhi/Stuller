@@ -1,7 +1,7 @@
 ﻿using MyPoki.Repository;
 using MyPoki.Repository.Models;
 
-class Program
+class RunPoki
 {
     static async Task Main(string[] args)
     {
@@ -30,11 +30,16 @@ class Program
                 // Get the first page of Pokémon (default limit is 20)
                 var pokemonPage = await pokeClient.GetResourceAsync<Pokemon>(pokiName);
                 var pokeAbility = await pokeClient.GetResourceAsync<Ability>(pokemonPage.Id.ToString());
-
-                Console.WriteLine("\n" + playerName + " Your Pokemon Name: " +pokemonPage.Name);
+                
                 string types = string.Join(", ", pokemonPage.Types.Select(x=>x.Type.Name));
+                string itemsHeld = string.Join(", ", pokemonPage.HeldItems.Select(x=>x.Item.Name));
+                string moves = string.Join(", ", pokemonPage.Moves.Select(x=>x.Move.Name));
+                
+                //Print Pokemon Types, Items Held, Moves available.
                 Console.WriteLine("Your "+pokiName +" has Types : " + types);
-                Console.WriteLine("Your "+pokiName +"'s Resource Name: "+ pokeAbility.Name);
+                Console.WriteLine("\nYour "+pokiName +" has items it Held in: " + itemsHeld);
+                Console.WriteLine("\nYour "+pokiName +"'s Moves are :\n" + moves);
+                Console.WriteLine("\nYour "+pokiName +"'s Resource Name: "+ pokeAbility.Name);
 
                 //Print Abilities
                 string ability = string.Join(", ",pokemonPage.Abilities.Select(x=>x.Ability.Name));
