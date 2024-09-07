@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "l2fGGkYgk2E=",
+  "success": true,
+  "projectFilePath": "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ganar\\.nuget\\packages\\cachemanager.core\\1.2.0\\cachemanager.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\cachemanager.microsoft.extensions.caching.memory\\1.2.0\\cachemanager.microsoft.extensions.caching.memory.1.2.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.0.0\\microsoft.extensions.caching.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.0.0\\microsoft.extensions.caching.memory.2.0.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\ganar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

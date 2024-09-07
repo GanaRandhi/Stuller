@@ -1,0 +1,10 @@
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\MyPoki.Repository.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\MyPoki.Repository.deps.json
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\MyPoki.Repository.pdb
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\CacheManager.Core.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\CacheManager.Microsoft.Extensions.Caching.Memory.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Memory.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\Microsoft.Extensions.Options.dll
+C:\Stuller\MyPoki.Repository\bin\Release\net8.0\publish\Microsoft.Extensions.Primitives.dll

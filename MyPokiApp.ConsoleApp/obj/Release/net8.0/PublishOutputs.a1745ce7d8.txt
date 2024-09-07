@@ -1,0 +1,14 @@
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPokiApp.ConsoleApp.exe
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPokiApp.ConsoleApp.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPokiApp.ConsoleApp.deps.json
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPokiApp.ConsoleApp.runtimeconfig.json
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPokiApp.ConsoleApp.pdb
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\CacheManager.Core.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\CacheManager.Microsoft.Extensions.Caching.Memory.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Memory.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\Microsoft.Extensions.Options.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\Microsoft.Extensions.Primitives.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPoki.Repository.dll
+C:\Stuller\MyPokiApp.ConsoleApp\bin\Release\net8.0\publish\MyPoki.Repository.pdb

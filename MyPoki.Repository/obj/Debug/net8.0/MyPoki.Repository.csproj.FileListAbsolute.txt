@@ -1,0 +1,12 @@
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.csproj.AssemblyReference.cache
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.AssemblyInfoInputs.cache
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.AssemblyInfo.cs
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.csproj.CoreCompileInputs.cache
+C:\Stuller\MyPoki.Repository\bin\Debug\net8.0\MyPoki.Repository.deps.json
+C:\Stuller\MyPoki.Repository\bin\Debug\net8.0\MyPoki.Repository.dll
+C:\Stuller\MyPoki.Repository\bin\Debug\net8.0\MyPoki.Repository.pdb
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.dll
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\refint\MyPoki.Repository.dll
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\MyPoki.Repository.pdb
+C:\Stuller\MyPoki.Repository\obj\Debug\net8.0\ref\MyPoki.Repository.dll

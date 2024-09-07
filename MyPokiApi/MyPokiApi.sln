@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPokiApi.Tests", "..\MyPokiApi.Tests\MyPokiApi.Tests.csproj", "{D9A574E0-F8B0-4EF2-B2C8-D8C661EC2B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPoki.Repository", "..\MyPoki.Repository\MyPoki.Repository.csproj", "{EEEB3FE0-94E2-42F5-8ACC-0D10DA1143E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPokiApp.ConsoleApp", "..\MyPokiApp.ConsoleApp\MyPokiApp.ConsoleApp.csproj", "{882E77EB-FB6C-47BF-9284-406FF2E1CF04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9A574E0-F8B0-4EF2-B2C8-D8C661EC2B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A574E0-F8B0-4EF2-B2C8-D8C661EC2B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A574E0-F8B0-4EF2-B2C8-D8C661EC2B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A574E0-F8B0-4EF2-B2C8-D8C661EC2B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0182C0-E5BD-4FC0-8E78-C0A479BC8E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0182C0-E5BD-4FC0-8E78-C0A479BC8E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0182C0-E5BD-4FC0-8E78-C0A479BC8E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0182C0-E5BD-4FC0-8E78-C0A479BC8E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEB3FE0-94E2-42F5-8ACC-0D10DA1143E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEB3FE0-94E2-42F5-8ACC-0D10DA1143E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEB3FE0-94E2-42F5-8ACC-0D10DA1143E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEB3FE0-94E2-42F5-8ACC-0D10DA1143E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882E77EB-FB6C-47BF-9284-406FF2E1CF04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882E77EB-FB6C-47BF-9284-406FF2E1CF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882E77EB-FB6C-47BF-9284-406FF2E1CF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882E77EB-FB6C-47BF-9284-406FF2E1CF04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
