@@ -10,3 +10,4 @@ C:\Stuller\MyPoki.Repository\obj\Release\net8.0\MyPoki.Repository.dll
 C:\Stuller\MyPoki.Repository\obj\Release\net8.0\refint\MyPoki.Repository.dll
 C:\Stuller\MyPoki.Repository\obj\Release\net8.0\MyPoki.Repository.pdb
 C:\Stuller\MyPoki.Repository\obj\Release\net8.0\ref\MyPoki.Repository.dll
+C:\Stuller\MyPoki.Repository\obj\Release\net8.0\MyPoki.Repository.sourcelink.json
