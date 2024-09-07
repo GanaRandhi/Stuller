@@ -47,7 +47,7 @@ class Program
             }
             catch (System.Exception)
             {            
-                Console.WriteLine("You have entered Invalid Pokemon Name. ", pokiName);
+                Console.WriteLine("The " + pokiName + " entered is still in an Egg and yet to born. \n Please try after few more months. It needs time to HATCH, PATCH and CATCH.");
                 Console.WriteLine("\n Please press Enter to exit");
                 Console.ReadLine();
             } 
