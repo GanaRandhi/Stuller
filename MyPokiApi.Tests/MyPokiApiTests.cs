@@ -145,6 +145,38 @@ public class MyPokiApiTest
 
         // assert
         Assert.True(page.Results.Any());
+    }    
+
+    [Fact]
+    [Trait("Category", "Integration")]
+    public async Task GetTypeResourceAsyncIntegrationTest()
+    {
+        // assemble
+        using MyPokeApiClient client = new();
+        string damageD = "";
+        string damageH = "";
+        string damageN = "";
+
+        // act
+        var type = await client.GetResourceAsync<MyPoki.Repository.Models.Type>(1);
+        var poke = await client.GetResourceAsync<Pokemon>(1);
+        foreach(var damage in type.DamageRelations.DoubleDamageFrom)
+        {
+            damageD = damageD + ", " + damage.Name;
+        }
+        foreach(var damage in type.DamageRelations.HalfDamageFrom)
+        {
+            damageH = damageH + ", " + damage.Name;
+        }
+        foreach(var damage in type.DamageRelations.NoDamageFrom)
+        {
+            damageN = damageN + ", " + damage.Name;
+        }
+
+        // assert
+        Assert.True(type.Id != default);
+        Assert.True(!String.IsNullOrEmpty(damageD));        
+        Assert.True(String.IsNullOrEmpty(damageD));
     }
 
     private MyPokeApiClient CreateSut() => new(mockHttp);    
