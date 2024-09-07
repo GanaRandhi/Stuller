@@ -14,6 +14,7 @@ Steps
 2. Enter Pokemon name. You can enter anything.
 3. If valid, you get info, types, strong attack and weak defence types, moves, strengthes and weaknesses in it.
 4. If invalid, it prompts you a message and progresses accordingly.
-5. After done reading, press'ENTER' to exit.
+5. After done reading, You can choose to Re-enter or exit.
+6. Press'ENTER' to exit.
 
 If any issues with retrieving data, please use sample Pokemons like Ivysaur/Venusaur.
