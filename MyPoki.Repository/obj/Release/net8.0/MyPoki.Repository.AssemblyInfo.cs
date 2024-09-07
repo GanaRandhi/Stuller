@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPoki.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ec02e184a1381163bf3dadbc7acadfca116d4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd46e556da5c7e8b02b42241d8d727f06c3bfd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPoki.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPoki.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
