@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPokiApp.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd46e556da5c7e8b02b42241d8d727f06c3bfd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe6590d99e525ebf83f57148a95ba21f6c8a4794")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPokiApp.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPokiApp.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
