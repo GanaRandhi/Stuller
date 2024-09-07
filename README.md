@@ -16,4 +16,4 @@ Steps
 4. If invalid, it prompts you a message and progresses accordingly.
 5. After done reading, press'ENTER' to exit.
 
-Funny wording added.
+If any issues with retrieving data, please use sample Pokemons like Ivysaur/Venusaur.
