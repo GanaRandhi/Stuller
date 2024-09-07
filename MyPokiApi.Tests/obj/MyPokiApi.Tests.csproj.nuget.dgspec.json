@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj": {}
+    "c:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj": {
+    "c:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj",
+        "projectUniqueName": "c:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj",
         "projectName": "MyPoki.Repository",
-        "projectPath": "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj",
+        "projectPath": "c:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj",
         "packagesPath": "C:\\Users\\ganar\\.nuget\\packages\\",
-        "outputPath": "C:\\Stuller\\MyPoki.Repository\\obj\\",
+        "outputPath": "c:\\Stuller\\MyPoki.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ganar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj": {
+    "c:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
+        "projectUniqueName": "c:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
         "projectName": "MyPokiApi.Tests",
-        "projectPath": "C:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
+        "projectPath": "c:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
         "packagesPath": "C:\\Users\\ganar\\.nuget\\packages\\",
-        "outputPath": "C:\\Stuller\\MyPokiApi.Tests\\obj\\",
+        "outputPath": "c:\\Stuller\\MyPokiApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ganar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj": {
-                "projectPath": "C:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj"
+              "c:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj": {
+                "projectPath": "c:\\Stuller\\MyPoki.Repository\\MyPoki.Repository.csproj"
               }
             }
           }

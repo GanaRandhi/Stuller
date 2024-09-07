@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPokiApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5641356398750aac0e8cd0d015906b83f84fb9eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103c348a200a8a947c5fe54d3863d52e09a642a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPokiApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPokiApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

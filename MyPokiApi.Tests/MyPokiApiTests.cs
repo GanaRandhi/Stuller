@@ -158,7 +158,8 @@ public class MyPokiApiTest
         string damageN = "";
 
         // act
-        var type = await client.GetResourceAsync<MyPoki.Repository.Models.Type>(1);
+        var type = await client.GetResourceAsync<MyPoki.Repository.Models.Type>(3);
+        var pokeAbility = await client.GetResourceAsync<Pokemon>(3);
         foreach(var damage in type.DamageRelations.DoubleDamageFrom)
         {
             damageD = damageD + ", " + damage.Name;
