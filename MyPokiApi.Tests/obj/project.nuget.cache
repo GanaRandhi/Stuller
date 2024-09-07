@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eJogrEEriJY=",
+  "dgSpecHash": "GCdBf4foNr0=",
   "success": true,
-  "projectFilePath": "c:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
+  "projectFilePath": "C:\\Stuller\\MyPokiApi.Tests\\MyPokiApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ganar\\.nuget\\packages\\cachemanager.core\\1.2.0\\cachemanager.core.1.2.0.nupkg.sha512",
     "C:\\Users\\ganar\\.nuget\\packages\\cachemanager.microsoft.extensions.caching.memory\\1.2.0\\cachemanager.microsoft.extensions.caching.memory.1.2.0.nupkg.sha512",

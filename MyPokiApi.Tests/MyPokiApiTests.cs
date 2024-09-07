@@ -159,7 +159,6 @@ public class MyPokiApiTest
 
         // act
         var type = await client.GetResourceAsync<MyPoki.Repository.Models.Type>(1);
-        var poke = await client.GetResourceAsync<Pokemon>(1);
         foreach(var damage in type.DamageRelations.DoubleDamageFrom)
         {
             damageD = damageD + ", " + damage.Name;
@@ -176,7 +175,7 @@ public class MyPokiApiTest
         // assert
         Assert.True(type.Id != default);
         Assert.True(!String.IsNullOrEmpty(damageD));        
-        Assert.True(String.IsNullOrEmpty(damageD));
+        Assert.True(String.IsNullOrEmpty(damageH));
     }
 
     private MyPokeApiClient CreateSut() => new(mockHttp);    
