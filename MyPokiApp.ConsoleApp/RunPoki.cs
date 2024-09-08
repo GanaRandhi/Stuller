@@ -24,18 +24,21 @@ class RunPoki
                     Console.WriteLine("You sure you enter a name??");                
                 else
                     isEntryGood = true;
-                
-                try
-                {
-                    pokemonPage = await pokeClient.GetResourceAsync<Pokemon>(pokiName);
-                    isPokemonValid = true;
 
-                }
-                catch (Exception)
+                if (isEntryGood)
                 {
-                    Console.WriteLine("The " + pokiName + " is Not Available.");
-                    isEntryGood = !WannaContinue(isEntryGood);
-                    continueApp = !isEntryGood;
+                    try
+                    {
+                        pokemonPage = await pokeClient.GetResourceAsync<Pokemon>(pokiName);
+                        isPokemonValid = true;
+    
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("The " + pokiName + " is Not Available.");
+                        isEntryGood = !WannaContinue(isEntryGood);
+                        continueApp = !isEntryGood;
+                    }
                 }
 
             } while (!isEntryGood);
