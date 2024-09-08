@@ -41,7 +41,7 @@ class RunPoki
             {
                 Console.WriteLine("Thats an interesting Pokemon name ");
 
-                // Get the first page of Pokémon (default limit is 20)
+                // 
                 var pokeAbility = await pokeClient.GetResourceAsync<Ability>(pokemonPage.Id.ToString());
                 
                 string types = string.Join(", ", pokemonPage.Types.Select(x=>x.Type.Name));
