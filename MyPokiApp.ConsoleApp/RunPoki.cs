@@ -75,7 +75,7 @@ class RunPoki
             }
             catch (System.Exception)
             {
-                Console.WriteLine("\nThe " + pokiName + " has issues pulling the damage i.e., Attack and Defence details. \n Please try after few more months. It needs time to HATCH, PATCH and CATCH.\n\nOr try Pokemon Name: Bulbasaur/Ivysaur/Venusaur");                
+                Console.WriteLine("\nThe " + pokiName + " has issues pulling the damage i.e., Attack and Defence details.");                
             }
             
                 Console.WriteLine("\n Do you want to enter new Pokemon? (Y/N)");
