@@ -71,7 +71,7 @@ class RunPoki
                 string weakAgainst = GetWeakTo(pokeTypes);
                 
                 Console.WriteLine("\nYour "+pokiName +"'s Stronger against : \n" + strongAgainst);
-                Console.WriteLine("\nYour "+pokiName +"'s Seaker against : \n" + weakAgainst);
+                Console.WriteLine("\nYour "+pokiName +"'s Weaker against : \n" + weakAgainst);
             }
             catch (System.Exception)
             {
@@ -89,15 +89,17 @@ class RunPoki
 
     private static string GetStrongTo(MyPoki.Repository.Models.Type pokeTypes)
     {
-        string doubleDamageTo = string.Join(", ", pokeTypes.DamageRelations.DoubleDamageTo.Select(x=>x.Name));
-        string halfDamageTo = string.Join(", ", pokeTypes.DamageRelations.HalfDamageTo.Select(x=>x.Name));
-        return "Strong Attack Double:"+doubleDamageTo +"\nStrong Attack Half:"+ halfDamageTo;
+        string doubleDamageTo = string.Join(", ", pokeTypes.DamageRelations.DoubleDamageTo.Select(x=>x.Name));        
+        string halfDamageFrom = string.Join(", ", pokeTypes.DamageRelations.HalfDamageFrom.Select(x=>x.Name));
+        string noDamageFrom = string.Join(",", pokeTypes.DamageRelations.NoDamageFrom.Select(x=>x.Name));
+        return "Double Damage To:"+doubleDamageTo +"\nHalf Damage From:"+ halfDamageFrom + "\nNo Damage From:" + noDamageFrom;
     }
 
     private static string GetWeakTo(MyPoki.Repository.Models.Type pokeTypes)
     {        
         string doubleDamageFrom = string.Join(", ", pokeTypes.DamageRelations.DoubleDamageFrom.Select(x=>x.Name));
-        string halfDamageFrom = string.Join(", ", pokeTypes.DamageRelations.HalfDamageFrom.Select(x=>x.Name));
-        return "Weak Defence Double:"+doubleDamageFrom +"\nWeak Defence Half: "+ halfDamageFrom;
+        string halfDamageTo = string.Join(", ", pokeTypes.DamageRelations.HalfDamageTo.Select(x=>x.Name));        
+        string noDamageTo = string.Join(",", pokeTypes.DamageRelations.NoDamageTo.Select(x=>x.Name));
+        return "Double Damage From::"+doubleDamageFrom +"\nHalf Damage To: "+ halfDamageTo + "\nNo Damage To:" + noDamageTo;
     }
 }
