@@ -81,7 +81,7 @@ class RunPoki
              }
              catch (System.Exception)
              {
-                 Console.WriteLine("\nThe " + pokiName + " has issues pulling the damage i.e., Attack and Defence details.");
+                 Console.WriteLine("\nThe " + pokiName + " has issues pulling the damage i.e., Attack and Defence details.\n Try these Pokemons instead - Bulbasaur, Ivysaur, Venusaur");
              }           
             continueApp = WannaContinue(continueApp);
             }
