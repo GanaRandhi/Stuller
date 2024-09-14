@@ -49,26 +49,21 @@ class RunPoki
              try
              {
                  Console.WriteLine("Thats an interesting Pokemon name ");
- 
-                 // 
-                 var pokeAbility = await pokeClient.GetResourceAsync<Ability>(pokemonPage.Id.ToString());
- 
                  string types = string.Join(", ", pokemonPage.Types.Select(x => x.Type.Name));
- 
-                 //Print Pokemon Types, Resource.
-                 Console.WriteLine("Your " + pokiName + " has Types : " + types);
-                 Console.WriteLine("\nYour " + pokiName + "'s Resource Name: " + pokeAbility.Name);
- 
+                 
                  //Print Abilities
                  string ability = string.Join(", ", pokemonPage.Abilities.Select(x => x.Ability.Name));
                  Console.WriteLine("Your " + pokiName + "'s Abilities are: " + ability);
-                 Console.WriteLine("Your " + pokiName + "'s strengths and weaknesses are: " + pokeAbility.EffectEntries[1].Effect.ToString());
- 
+                 Console.WriteLine("Your " + pokiName + " has Types : " + types);
+                 
+                 var pokeAbility = await pokeClient.GetResourceAsync<Ability>(pokemonPage.Id.ToString());
+                 Console.WriteLine("\nYour " + pokiName + "'s Resource Name: " + pokeAbility.Name);                
+                 Console.WriteLine("Your " + pokiName + "'s strengths and weaknesses are: " + pokeAbility.EffectEntries[1].Effect.ToString()); 
              }
              catch (Exception)
              {
                  Console.WriteLine("The " + pokiName + " entered is still in an Egg and yet to born. \n Please try after few more months. It needs time to HATCH, PATCH and CATCH.");
- 
+                 
              }
  
              //check Damage Stats
