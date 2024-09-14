@@ -62,8 +62,7 @@ class RunPoki
              }
              catch (Exception)
              {
-                 Console.WriteLine("The " + pokiName + " entered is still in an Egg and yet to born. \n Please try after few more months. It needs time to HATCH, PATCH and CATCH.");
-                 
+                 Console.WriteLine("The " + pokiName + " entered is still in an Egg and yet to born. \n Please try after few more months. It needs time to HATCH, PATCH and CATCH.");                 
              }
  
              //check Damage Stats
@@ -82,6 +81,7 @@ class RunPoki
                  Console.WriteLine("\nThe " + pokiName + " has issues pulling the damage i.e., Attack and Defence details.\n Try these Pokemons instead - Bulbasaur, Ivysaur, Venusaur");
              }           
             continueApp = WannaContinue(continueApp);
+            if(!continueApp)pokeClient.Dispose();
             }
         }
     }
